@@ -23,4 +23,14 @@ nav {
   nav a:hover {
     text-decoration: underline;
   }
-  
+  .parent {
+    display: flex;
+    justify-content: center;
+  }
+
+  .child {
+    width: 45%;
+    height: 200px;
+    background-color: #ccc;
+    border: 1px solid black;
+  }
