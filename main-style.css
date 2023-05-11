@@ -26,13 +26,23 @@ nav {
   .parent {
     display: flex;
     justify-content: center;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    box-sizing: border-box;
   }
 
-  .child {
-    width: 45%;
-    height: 200px;
+  .child1 , .child2 {
+    max-width: 100%;
+    height: auto;
     background-color: #ccc;
     border: 1px solid black;
+    
+  }
+
+  .child2 { 
+    line-height: 1;
+    margin: 1;
   }
 
   
