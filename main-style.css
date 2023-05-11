@@ -67,6 +67,10 @@ nav {
     width: 100%;
     height: auto;
     padding: 40px 0px;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .parent-about {
@@ -74,6 +78,12 @@ nav {
     width: 80%;
     height: auto;
     padding: 40px;
+    display: flex;
+    justify-content: space-between;  
+  }
+
+  .child1-about , .child2-about , .child3-about {
+    border: 5px solid violet;
   }
 
   .child1-about {
@@ -86,6 +96,12 @@ nav {
     width: 350px;
     height: 350px;
     background-color: pink;
+  }
+
+  .child3-about {
+    width: 350px;
+    height: 350px;
+    background-color: yellow;
   }
 
 
