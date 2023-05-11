@@ -23,26 +23,70 @@ nav {
   nav a:hover {
     text-decoration: underline;
   }
+
+  .wrapper {
+    border: 1px solid black;
+    display: flex;
+    position: relative;
+    width: 100%;
+  }
+
   .parent {
     display: flex;
     justify-content: center;
-    width: 400px;
+    width: 80%;
     height: 400px;
     padding: 20px;
     box-sizing: border-box;
+    margin: auto;
+    position: relative;
   }
 
   .child1 , .child2 {
-    max-width: 100%;
+    max-width: 400px;
     height: auto;
     background-color: #ccc;
     border: 1px solid black;
-    
+    position: relative;
+    display: block
   }
 
-  .child2 { 
-    line-height: 1;
-    margin: 1;
+  .child3 { 
+    line-height: auto;
+    padding: 10px;
+    margin: 20px;
+    border: #333 20px solid;
+    max-height: 360px;
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
   }
+
+  .wrapper-about {
+    background-color: red;
+    width: 100%;
+    height: auto;
+    padding: 40px 0px;
+  }
+
+  .parent-about {
+    background-color: green;
+    width: 80%;
+    height: auto;
+    padding: 40px;
+  }
+
+  .child1-about {
+    width: 350px;
+    height: 350px;
+    background-color: blue;
+  }
+
+  .child2-about {
+    width: 350px;
+    height: 350px;
+    background-color: pink;
+  }
+
 
   
