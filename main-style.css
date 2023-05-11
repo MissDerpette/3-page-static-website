@@ -47,15 +47,12 @@ nav {
     height: auto;
     background-color: #ccc;
     border: 1px solid black;
-    position: relative;
-    display: block
   }
 
   .child3 { 
     line-height: auto;
     padding: 10px;
     margin: 20px;
-    border: #333 20px solid;
     max-height: 360px;
     height: 300px;
     width: 300px;
@@ -82,26 +79,18 @@ nav {
     justify-content: space-between;  
   }
 
-  .child1-about , .child2-about , .child3-about {
-    border: 5px solid violet;
+  .shadow-box {
+    box-shadow: 16px 19px 8px -4px rgba(0,0,0,0.57);
+    -webkit-box-shadow: 16px 19px 8px -4px rgba(0,0,0,0.57);
+    -moz-box-shadow: 16px 19px 8px -4px rgba(0,0,0,0.57);
   }
 
-  .child1-about {
+  .child-about {
     width: 350px;
     height: 350px;
-    background-color: blue;
-  }
-
-  .child2-about {
-    width: 350px;
-    height: 350px;
-    background-color: pink;
-  }
-
-  .child3-about {
-    width: 350px;
-    height: 350px;
-    background-color: yellow;
+    background-color: #fff;
+    border: 1px solid black;
+    margin: 8px;
   }
 
 
